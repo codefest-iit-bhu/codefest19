@@ -47,8 +47,9 @@ export default {
   text-align: center;
 
   .logoContainer {
-    width: 20%;
-    min-width: 100px;
+    width: 35vw;
+    // min-width: 200px;
+    max-width: 350px;
     border-radius: 100%;
     margin: 20px auto 40px;
     box-shadow: var(--box-shadow), inset 8px 8px 20px $crown-of-thorns;
@@ -56,33 +57,41 @@ export default {
 
     .logo {
       width: 90%;
-      height: 90%;
+      // height: 90%;
+      padding: 15%;
 
-      ~/.xxl ^[1..-1] {
-        padding: 80px;
-      }
+      // ~/.xxl ^[1..-1] {
+      //   padding: 80px;
+      // }
 
-      ~/.xl ^[1..-1] {
-        padding: 35px;
-      }
+      // ~/.xl ^[1..-1] {
+      //   padding: 35px;
+      // }
 
-      ~/.lg ^[1..-1] {
-        padding: 30px;
-      }
+      // ~/.lg ^[1..-1] {
+      //   padding: 30px;
+      // }
 
-      ~/.md ^[1..-1] {
-        padding: 20px;
-      }
+      // ~/.md ^[1..-1] {
+      //   padding: 15%;
+      // }
 
-      ~/.xs ^[1..-1], ~/.sm ^[1..-1] {
-        padding: 45px;
-      }
+      // ~/.xs ^[1..-1], ~/.sm ^[1..-1] {
+      //   padding: 45px;
+      // }
     }
 
     ~/.xs ^[1..-1], ~/.sm ^[1..-1] {
-      width: 80%;
+      width: 60vw;
       margin: 20px auto;
     }
+
+    ~/.sm ^[1..-1] {
+      width: 50vw;
+      margin: 20px auto;
+    }
+
+
   }
 
   .title {

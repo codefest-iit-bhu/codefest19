@@ -282,7 +282,7 @@ $cell-collapsed-size = 150px;
 
 .txt {
   color: $black;
-  $font-size: 16px;
+  $font-size: 20px;
   pointer-events: none;
   align-items: center;
   height: 100%;
@@ -296,11 +296,15 @@ $cell-collapsed-size = 150px;
     font-family: 'Quicksand';
     padding: 2px 10px;
     text-align: justify;
-    $font-size: 24px;
+    $font-size: 20vw;
     font-weight: 600;
     vertical-align: middle;
     color: $mystic;
+
+
   }
+
+
 }
 
 .normalCanvas, .glitchedCanvas {
@@ -319,32 +323,12 @@ $cell-collapsed-size = 150px;
 }
 
 .event {
-  &.xs, &.sm {
-    --event-size: 0.75 * $cell-collapsed-size;
-    margin: 0 20px 60px;
-
-    .whiteTitle {
-      margin: 15px 0 0 0;
-
-      h3 {
-        $font-size: 24px;
-      }
-    }
-
+  &.md {
     .txt {
-      $font-size: 12px;
-    }
-
-    .odd {
-      justify-content: flex-end;
-
-      .whiteTitle {
-        order: -1;
+      .summary{
+        $font-size: 15vw;
       }
-    }
-
-    .even, .odd {
-      flex-flow: column;
+      
     }
   }
 
