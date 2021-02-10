@@ -99,7 +99,7 @@ $rd = 60px;
 
         p {
           color: var(--background-color);
-          $font-size: 14px;
+          $font-size: 18px;
           font-weight: 700;
 
           ~/.xs ^[1..-1], ~/.sm ^[1..-1], ~/.md ^[1..-1] {

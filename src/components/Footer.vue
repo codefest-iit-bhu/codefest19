@@ -52,7 +52,7 @@ export default {};
   flex-wrap: wrap;
   margin-top: 20px;
   width: 100%;
-
+  box-shadow: var(--appbar-shadow-color) 0 -1px 10px 3px;
   .logo {
     width: 100%;
     margin-top: 20px;
